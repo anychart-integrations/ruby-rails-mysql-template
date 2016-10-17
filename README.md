@@ -71,6 +71,10 @@ ruby-rails-mysql-template/
             ...
             main/
                 index.html.erb  # html template to render chart
+    config/
+        ...
+        database.yml    # database settings
+        routes.rb       # web routes
     public/
         ...
         stylesheets/
@@ -80,6 +84,7 @@ ruby-rails-mysql-template/
     LICENSE
 
 ```
+You can view additional information about Rails here http://guides.rubyonrails.org/
 
 ## Technologies
 Language - [Ruby](https://www.ruby-lang.org)<br />
