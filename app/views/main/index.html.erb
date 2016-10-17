@@ -1,0 +1,9 @@
+<div id="container"></div>
+<script>
+  anychart.onDocumentReady(function() {
+    var chart = anychart.pie(<%== @fruits.to_json.gsub('/', '\/') %>);
+    chart.title("Top 5 fruits");
+    chart.container("container");
+    chart.draw();
+  });
+</script>
