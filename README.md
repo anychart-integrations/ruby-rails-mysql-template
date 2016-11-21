@@ -6,28 +6,21 @@ This example shows how to use Anychart library with the Ruby on Rails and MySQL 
 
 ## Running
 
-To use this sample you must have Ruby installed (as described at https://www.ruby-lang.org/en/documentation/installation/);
+To use this sample you must have Ruby installed, as described at [Ruby installation page](https://www.ruby-lang.org/en/documentation/installation/);
+Rails installed, if not, please, visit [official Rails guide](http://guides.rubyonrails.org/getting_started.html) or you can fallow [this tutorial](http://railsapps.github.io/installrubyonrails-ubuntu.html);
+MySQL installed and running, if not please check out [MySQL download page](https://dev.mysql.com/downloads/installer/) and follow [instructions](http://dev.mysql.com/doc/refman/5.7/en/installing.html);
 
-MySQL installed and running (if not please check out https://dev.mysql.com/downloads/installer/ and follow instructions http://dev.mysql.com/doc/refman/5.7/en/installing.html)
 
 To check your installations, run the following command in the command line:
 ```
 $ ruby -v
 ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux] # sample output
+
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6. # sample output
 
-```
-To check that you have Rails installed, run
-```
 $ rails -v
 Rails 5.0.0.1 # sample output
-
-```
-If you don't, please, install it:
-```
-$ gem install rails --include-dependencies
-
 ```
 
 To start this example run commands listed below.
