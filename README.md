@@ -80,7 +80,7 @@ You can view additional information about Rails here http://guides.rubyonrails.o
 
 ## Technologies
 Language - [Ruby](https://www.ruby-lang.org)<br />
-Framework - [Ruby on Rails] (http://rubyonrails.org/)<br />
+Framework - [Ruby on Rails](http://rubyonrails.org/)<br />
 Database - [MySQL](https://www.mysql.com/)<br />
 
 ## Further Learning
